@@ -9,13 +9,11 @@ A browser-based memory matching game built using HTML, CSS, and JavaScript as pa
 - Use the Restart button to play again
 
 ## 🛠 Technologies Used
-- HTML5
-- CSS3 (Grid & Responsive Design)
-- JavaScript (DOM Manipulation)
-
-## 🚀 Live Demo
-(Add GitHub Pages link here)
+- HTML
+- CSS
+- JavaScript 
 
 ## 👤 Author
-Your Name  
+VINCENT VILLANUEVA 
 DC 101 – Web Development
+
