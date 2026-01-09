@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+  margin: 30px 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#game-board {
+  display: grid;
+  grid-template-columns: repeat(4, 90px);
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 90px;
+  height: 90px;
+  background: #222;
+  border-radius: 12px;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card.flipped,
+.card.matched {
+  background: #fff;
+  color: #333;
+  cursor: default;
+}
+
+#restart-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#restart-btn:hover {
+  background: #ddd;
+}
+
+footer {
+  margin-top: auto;
+  padding: 15px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 500px) {
+  #game-board {
+    grid-template-columns: repeat(4, 70px);
+  }
+
+  .card {
+    width: 70px;
+    height: 70px;
+  }
+}

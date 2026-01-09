@@ -1,1 +1,21 @@
-# DC101_Game_VillanuevaVincent
+# 🎮 Mini Arcade – Memory Match Game
+
+## 📌 Description
+A browser-based memory matching game built using HTML, CSS, and JavaScript as part of the DC 101 Mini Arcade project.
+
+## 🎯 How to Play
+- Click two cards to flip them
+- Match all pairs to win the game
+- Use the Restart button to play again
+
+## 🛠 Technologies Used
+- HTML5
+- CSS3 (Grid & Responsive Design)
+- JavaScript (DOM Manipulation)
+
+## 🚀 Live Demo
+(Add GitHub Pages link here)
+
+## 👤 Author
+Your Name  
+DC 101 – Web Development
